@@ -1,0 +1,26 @@
+body {
+    background-color: #111;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    position: relative;
+}
+
+canvas {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+}
+
+#newGameButton {
+    display: none;
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    transform: translateX(-50%);
+}
